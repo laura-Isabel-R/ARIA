@@ -11,9 +11,8 @@ aria_env\Scripts\activate
 pip install --upgrade pip
 
 # 4. Instalar las dependencias
+#Guardar esta sección como "requirements.txt"
 
-#NOTA: Para instalar estas dependencias escribir en la terminal (dentro del entorno virtual) "pip install -r requirements.txt"
- 
 pip install \
 filelock==3.19.1 \
 fsspec==2025.9.0 \
@@ -37,3 +36,7 @@ typing_extensions==4.15.0 \
 tzdata==2025.2 \
 ultralytics==8.3.195 \
 ultralytics-thop==2.0.17
+
+
+#NOTA: Para instalar estas dependencias escribir en la terminal (dentro del entorno virtual) "pip install -r requirements.txt"
+ 
