@@ -1,3 +1,17 @@
+# 1. Crear un entorno virtual (puedes cambiar 'aria_env' por el nombre que prefieras)
+python -m venv aria_env
+
+# 2. Activar el entorno virtual
+# En Windows:
+aria_env\Scripts\activate
+# En Linux o macOS:
+# source aria_env/bin/activate
+
+# 3. Actualizar pip
+pip install --upgrade pip
+
+# 4. Instalar las dependencias
+
 #NOTA: Para instalar estas dependencias escribir en la terminal (dentro del entorno virtual) "pip install -r requirements.txt"
  
 pip install \
