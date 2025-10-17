@@ -1,0 +1,15 @@
+# Python / VSCode
+__pycache__/
+*.pyc
+.venv/
+.env
+*.ipynb_checkpoints
+.vscode/
+
+# Videos / archivos pesados
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.7z
